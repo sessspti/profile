@@ -1,0 +1,102 @@
+.septi {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    background-color: #e9e7f3;
+}
+
+#header {
+    background-color: #898AC4;
+    padding: 10px 100px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Profil {
+    font-size: 30px;
+    text-align: justify;
+    margin: 70px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.teks {
+    margin: 50px;
+}
+
+.Profil img {
+    width: 800px;
+    border-radius: 50%;
+    box-shadow: 10px 30px 16px rgba(0, 0, 0, 0.2);
+}
+
+.galeri {
+    margin: 30px 50px;
+}
+
+.galeri h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.aktivitas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.kartu-aktivitas {
+    background-color: #C0C9EE;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: justify;
+    margin: 10px;
+    width: 700px;
+    font-size: 20px;
+}
+
+.kartu-aktivitas img {
+    width: 600px;
+    height: 500px;
+    display: block;
+    margin: 0 auto 10px;
+    margin-bottom: 10px;
+}
+
+.tambahan {
+    margin: 30px 50px;
+}
+
+.tambahan p{
+    font-size: 25px;
+}
+
+.foto {
+    background-color: #C0C9EE;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+    box-shadow: 10px 30px 16px rgba(0, 0, 0, 0.2);
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+
+.foto img {
+    width: 500px;
+    height: 400px;
+    border-radius: 8px;
+
+}
+
+.sosmed img{
+    width: 50px;
+    height: 50px;
+
+}
