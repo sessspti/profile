@@ -44,6 +44,7 @@
 .aktivitas {
     display: flex;
     justify-content: space-around;
+    box-shadow: 10px 30px 16px rgba(0, 0, 0, 0.2);
 }
 
 .kartu-aktivitas {
@@ -55,6 +56,12 @@
     margin: 10px;
     width: 700px;
     font-size: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.kartu-aktivitas:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
 .kartu-aktivitas img {
@@ -63,6 +70,7 @@
     display: block;
     margin: 0 auto 10px;
     margin-bottom: 10px;
+    object-fit: cover;
 }
 
 .tambahan {
@@ -91,7 +99,7 @@
 .foto img {
     width: 500px;
     height: 400px;
-    border-radius: 8px;
+    border-radius: 20px;
 
 }
 
